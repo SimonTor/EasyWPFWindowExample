@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button x:Name="OK_Btn" Content="Klick mich" TextBlock.FontSize="50" Margin="50" Click="OK_Btn_Click"/>
+        <TextBox x:Name="Eingabe_txb" Background="Gray"></TextBox>   
+        
+        <ScrollBar Height="50" Width="200" Orientation="Horizontal"></ScrollBar>
+        <WebBrowser Height="auto" Width="auto" x:Name="webBrowser" Source="http://www.google.de"></WebBrowser>
+    </StackPanel>
+</Window>
